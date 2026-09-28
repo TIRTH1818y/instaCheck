@@ -23,7 +23,7 @@ this is update
 │  🔒 Your data stays private          │
 └──────────────────────────────────────┘
 
-![How to Export Instagram Data](.\assets\examples\step.png)
+![How to Export Instagram Data](./assets/examples/step.png)
 
 
 ![Instagram Data Analyzer Banner](./assets/examples/example.png)
