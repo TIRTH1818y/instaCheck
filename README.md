@@ -14,53 +14,165 @@ this is update
 <strong>📥 How to Get Your Instagram Data</strong>
 </p>
 
+<p>
+Follow these simple steps to export your Instagram data and import it into the app.
+</p>
+
 </div>
 
-### 1️⃣ Open Instagram
+<table>
+<tr>
+<td width="50%" align="center">
 
-Go to **Profile → ☰ Menu → Accounts Center**
+<h2>1️⃣</h2>
 
-### 2️⃣ Your Information
+<h3>📱 Open Instagram</h3>
 
-Open **Your information and permissions**
+<p>
+Go to <strong>Profile → ☰ Menu → Accounts Center</strong>
+</p>
 
-### 3️⃣ Export
+</td>
 
-Select **Export your information**
+<td width="50%" align="center">
 
-### 4️⃣ Create Export
+<h2>2️⃣</h2>
 
-Click **Create export**
+<h3>🔐 Your Information</h3>
 
-### 5️⃣ Select Account
+<p>
+Open <strong>Your information and permissions</strong>
+</p>
 
-Choose your Instagram account.
+</td>
+</tr>
 
-### 6️⃣ Export to Device
+<tr>
+<td width="50%" align="center">
 
-Select **Export to device**.
+<h2>3️⃣</h2>
 
-### 7️⃣ Settings
+<h3>📤 Export Your Information</h3>
 
-- 📅 **Date range:** All time
-- 📄 **Format:** JSON
+<p>
+Select <strong>Export your information</strong>
+</p>
 
-### 8️⃣ Start Export
+</td>
 
-Click **Start export** and wait for Instagram to prepare your data.
+<td width="50%" align="center">
 
-### 9️⃣ Download
+<h2>4️⃣</h2>
 
-Download the generated ZIP file.
+<h3>📦 Create Export</h3>
 
-### 🔟 Import
+<p>
+Click <strong>Create export</strong>
+</p>
 
-Open **Instagram Data Analyzer → Import Data** and select your ZIP file.
+</td>
+</tr>
 
----
+<tr>
+<td width="50%" align="center">
 
-> 🔒 **Privacy:** Keep your Instagram export private. Do not upload it to
-> GitHub or public websites.
+<h2>5️⃣</h2>
+
+<h3>👤 Select Account</h3>
+
+<p>
+Choose the Instagram account you want to analyze.
+</p>
+
+</td>
+
+<td width="50%" align="center">
+
+<h2>6️⃣</h2>
+
+<h3>💻 Export to Device</h3>
+
+<p>
+Select <strong>Export to device</strong>.
+</p>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" align="center">
+
+<h2>7️⃣</h2>
+
+<h3>⚙️ Select Settings</h3>
+
+<p>
+📅 <strong>Date range:</strong> All time
+<br>
+📄 <strong>Format:</strong> JSON
+</p>
+
+</td>
+
+<td width="50%" align="center">
+
+<h2>8️⃣</h2>
+
+<h3>🚀 Start Export</h3>
+
+<p>
+Click <strong>Start export</strong> and wait while Instagram prepares your data.
+</p>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" align="center">
+
+<h2>9️⃣</h2>
+
+<h3>⬇️ Download</h3>
+
+<p>
+Download the generated <strong>ZIP</strong> file.
+</p>
+
+</td>
+
+<td width="50%" align="center">
+
+<h2>🔟</h2>
+
+<h3>📊 Import Data</h3>
+
+<p>
+Open <strong>Instagram Data Analyzer → Import Data</strong> and select your ZIP file.
+</p>
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<div align="center">
+
+<h3>🔒 Privacy Notice</h3>
+
+<p>
+<strong>Keep your Instagram export private.</strong>
+</p>
+
+<p>
+Do not upload your personal Instagram export to GitHub or public websites.
+</p>
+
+<p>
+🎉 <strong>You're ready to analyze your Instagram data!</strong>
+</p>
+
+</div>
 
 ![How to Export Instagram Data](./assets/examples/step.png)
 
