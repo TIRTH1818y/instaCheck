@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap");
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #0f1015;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #833ab4, #fd1d1d, #fcb045);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #e1306c, #fd1d1d);
+}
