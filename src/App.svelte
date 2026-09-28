@@ -31,6 +31,7 @@
     import ReportsView from './views/Reports.svelte';
     import SettingsView from './views/Settings.svelte';
     import StatsView from './views/Stats.svelte';
+    import ExportGuideView from './views/ExportGuideView.svelte';
 </script>
 
 <svelte:head>
@@ -70,5 +71,6 @@
         <Route path="/settings" component={SettingsView} />
         <Route path="/stats" component={StatsView} />
         <Route path="/stats/demo" component={StatsView} />
+        <Route path="/export-guide" component={ExportGuideView} />
     </Layout>
 </Router>

@@ -63,6 +63,7 @@
         {
             title: 'TOOLS',
             items: [
+                { path: '/export-guide', label: 'Export Guide', icon: '📖' },
                 { path: '/data-explorer', label: 'Data Explorer', icon: '🗂️' },
                 { path: '/reports', label: 'Export Reports', icon: '📄' },
                 { path: '/settings', label: 'Settings', icon: '🔧' },

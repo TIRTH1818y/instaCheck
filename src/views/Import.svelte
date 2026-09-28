@@ -2,6 +2,7 @@
     import { navigate } from 'svelte-routing';
     import { processInstagramExport } from '../app/parser';
     import { data, loadTask, setDemoMode } from '../app/store';
+    import ExportGuide from '../components/ExportGuide.svelte';
 
     let isScanning = false;
     let errorMessage = null;
@@ -175,6 +176,9 @@
             ✨ Try Interactive Demo Mode
         </button>
     </div>
+
+    <!-- EXPORT GUIDE -->
+    <ExportGuide />
 </div>
 
 <style lang="scss">

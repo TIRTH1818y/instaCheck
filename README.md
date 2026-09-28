@@ -4,6 +4,28 @@ this is update
 > **Understand your Instagram activity, connections, content and account data.**  
 > Instaddict has been upgraded into a complete **Instagram Data Analyzer & Personal Dashboard**. Process your official Instagram data package 100% privately on your local device — zero servers, zero scraping, zero login credentials required!
 
+## 📱 Step-by-Step Guide
+
+┌──────────────────────────────────────┐
+│       📥 Import Instagram Data       │
+│                                      │
+│  Don't have your Instagram data?     │
+│                                      │
+│       [ 📖 How to Get My Data ]      │
+│                                      │
+│  ──────────────────────────────────  │
+│                                      │
+│       📦 Drop ZIP file here          │
+│          or browse files             │
+│                                      │
+│       [ Select Instagram ZIP ]       │
+│                                      │
+│  🔒 Your data stays private          │
+└──────────────────────────────────────┘
+
+![How to Export Instagram Data](public/images/instagram-export-guide.png)
+
+
 ![Instagram Data Analyzer Banner](./assets/examples/example.png)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-pink.svg)](https://opensource.org/licenses/MIT)
