@@ -12,97 +12,168 @@ this is update
 
 ---
 
-## ✨ Comprehensive Features & Modules
+# 📸 Instagram Data Analyzer
 
-### 1. 📁 Universal Import System
-- **Multi-Format Support**: Drop your raw `.ZIP` archive, extracted directory folder, or individual `.JSON` files.
-- **Auto Scanner & Categorizer**: Scans files, builds a normalized data model, detects available Instagram categories, and highlights missing categories without generating fake data.
+> Explore. Analyze. Understand your Instagram data.
 
-### 2. 📊 Executive Dashboard (`/dashboard`)
-- **"Your Instagram in Numbers"**: Top cards for Followers, Following, Posts, Reels, Stories, Likes, Comments, Saved Items, Messages, and Searches.
-- **Connection Math**: Mutuals ($followers \cap following$), Non-followers ($following - followers$), and You Don't Follow Back.
-- **Frappe Charts**: Growth trends, peak activity by hour, monthly activity moments, and weekday distributions.
+Instagram Data Analyzer is a privacy-focused web application that helps users
+explore and understand their own Instagram data exports.
 
-### 3. 👥 Connections & Relationship Analytics (`/connections`)
-- **Category Tabs**: Followers, Following, Mutual Connections, Don't Follow Back, You Don't Follow Back, Close Friends, Blocked Accounts, Pending Requests, Received Requests, Muted, Restricted, and Recently Unfollowed.
-- **Auto Multi-File Merging**: Automatically merges split follower exports (`followers_1.json`, `followers_2.json`, `followers_3.json`, etc.).
-- **Interactive Tools**: Live search, column sorting, pagination, CSV export, and JSON export.
+Import an Instagram data export and get a complete interactive dashboard for
+connections, followers, following, posts, reels, stories, likes, comments,
+saved content, messages, activity history, security information, media,
+advertising information, and more.
 
-### 4. 👤 Profile & Sensitive Personal Info (`/profile`)
-- Display Name, Username, Bio, Creation Date, Account Type, Professional Category, and Profile Picture.
-- **Sensitive Data Protection**: Email, Phone Number, Date of Birth, and Coordinates are masked by default with a *"Show sensitive information"* confirmation button.
-
-### 5. 📸 Content & Media Library (`/posts`, `/reels`, `/stories`, `/media`)
-- **Posts & Reels**: Published posts grid, video player for Reels, captions, and location tags.
-- **Stories & Interactions**: Story media viewer plus sticker analytics for Polls, Quizzes, Questions, and Emoji Sliders.
-- **Media Library**: Photo and video gallery with filterable media types (Images, Videos, Audio), file metadata, and Lightbox modal previews.
-
-### 6. 💬 Interactions & Activity Feed (`/comments`, `/likes`, `/messages`, `/activity`)
-- **Comments & Likes**: Full comment log with post refs, liked posts, reels, and comment links.
-- **Direct Messages**: Inbox conversations list, sent vs received breakdown, and chat history viewer with attachment previews.
-- **Activity Center**: Unified chronological timeline across all account actions with type filters.
-
-### 7. 🔒 Privacy, Security & Insights (`/security`, `/apps-websites`, `/locations`, `/ads`)
-- **Apps & Websites**: Third-party off-Instagram app integrations audit.
-- **Security Audit**: Active login sessions, IP addresses, logouts, and password change counters.
-- **Location Logs**: Last known location history with coordinate protection.
-- **Ads Targeting**: Advertisers who targeted your account and inferred interest topics.
-
-### 8. 🗂️ Generic Data Explorer & Reports (`/data-explorer`, `/reports`)
-- **JSON Data Explorer**: Interactive expandable file tree to browse raw `.JSON` files and future schema updates.
-- **Report Generator**: Export printable formatted PDF reports, CSV summary spreadsheets, or full normalized JSON files.
-- **Interactive Demo Mode**: Full realistic mock data mode to explore all 35 features without uploading personal data.
+The application is designed to process exported data locally without requiring
+Instagram login credentials.
 
 ---
 
-## 🚀 Quick Start
+## ✨ Features
 
-### Prerequisites
-- [Node.js](https://nodejs.org/) (v16+)
-- `npm` or `yarn`
+### 📥 Universal Instagram Data Import
 
-### Installation & Running Locally
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/TIRTH1818y/instaddict.git
-   cd instaddict
-   ```
-
-2. **Install dependencies**:
-   ```bash
-   npm install
-   ```
-
-3. **Build or start dev server**:
-   ```bash
-   npm run dev
-   ```
-
-4. Open your browser and navigate to **[http://localhost:5000](http://localhost:5000)**.
+- Import Instagram ZIP exports
+- Import extracted Instagram folders
+- Import individual JSON files
+- Automatic file and folder detection
+- Automatically detect available Instagram data categories
+- Support multiple files such as `followers_1.json`, `followers_2.json`, etc.
+- Missing data is handled gracefully
+- Unknown JSON files can be explored through the Data Explorer
 
 ---
 
-## 🔒 Privacy & Security
+## 📊 Dashboard
 
-- **Local Execution**: All analysis is performed entirely inside your browser using client-side JavaScript.
-- **Zero Third-Party Uploads**: No data is sent to external servers.
-- **No Credentials Required**: Does not request Instagram passwords or private API access.
+The dashboard provides an overview of your Instagram data.
+
+- Followers
+- Following
+- Posts
+- Reels
+- Stories
+- Likes
+- Comments
+- Saved content
+- Messages
+- Searches
+- Activity timeline
+- Followers vs following
+- Mutual connections
+- Non-followers
+- Activity by month
+- Activity by weekday
+- Activity by hour
 
 ---
 
-## 🛠️ Built With
+## 👥 Connections
 
-- **[Svelte](https://svelte.dev)** - Reactive UI Framework
-- **[Rollup](https://rollupjs.org)** - Fast Module Bundler
-- **[svelte-routing](https://github.com/EmilTholin/svelte-routing)** - Single Page Routing
-- **[Frappe Charts](https://frappe.io/charts)** - Lightweight SVG Charts
-- **[fflate](https://github.com/10142923/fflate)** - High Performance ZIP Extraction
+Analyze your Instagram connections:
+
+- Followers
+- Following
+- Mutual connections
+- Non-followers
+- People you don't follow back
+- Close friends
+- Blocked profiles
+- Pending follow requests
+- Recent follow requests
+- Recently unfollowed profiles
+- Removed suggestions
+
+Connection data can be searched, filtered and explored.
 
 ---
 
-## 📄 License
+## ❤️ Activity Analysis
 
-This project is licensed under the **MIT License** - see the [LICENSE](./LICENSE) file for details.
+Explore your Instagram activity:
 
-Made with ❤️ by **[novabro](https://in.linkedin.com/in/sonigara-tirth-7153b830b)**.
+- Likes
+- Comments
+- Saved content
+- Searches
+- Story interactions
+- Posts
+- Reels
+- Messages
+- Follow/unfollow activity
+- Account activity
+
+---
+
+## 🖼️ Media Explorer
+
+Explore media included in your Instagram export:
+
+- Posts
+- Stories
+- Reels
+- Images
+- Videos
+- Profile media
+- Other media
+
+Includes search, filtering, preview and media categorization.
+
+---
+
+## 💬 Messages
+
+If message data is included in your Instagram export, the application can
+display available conversations and message information.
+
+The application does not create or invent missing messages.
+
+---
+
+## 🔐 Security & Privacy
+
+Explore available security-related information:
+
+- Login activity
+- Logout activity
+- Profile activity
+- Profile privacy changes
+- Device information
+- Location information
+- Signup information
+- Connected applications and websites
+
+Sensitive information can be masked where appropriate.
+
+---
+
+## 📢 Ads Information
+
+If available in the export:
+
+- Advertising information
+- Advertisers
+- Ad interactions
+- Interest categories
+- Advertising activity
+
+---
+
+## 🧭 Data Explorer
+
+The Data Explorer allows you to inspect your Instagram export directly.
+
+Example:
+
+```text
+Instagram Export
+│
+├── ads_information
+├── connections
+├── personal_information
+├── preferences
+├── security_and_login_information
+├── apps_and_websites_off_of_instagram
+├── your_instagram_activity
+├── logged_information
+└── media
